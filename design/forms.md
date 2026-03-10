@@ -1,6 +1,10 @@
 # FlowOS — Figma Forms Reference
 
-What operators and builders see on screen. Use this to design each form in Figma — every label, placeholder, and helper text in order.
+What operators and applicants see on screen. Use this to design each form in Figma — every label, placeholder, and helper text in order.
+
+---
+
+## OPERATOR FORMS
 
 ---
 
@@ -38,7 +42,6 @@ User Outcomes
 ☐ Acquisition
 ☐ Retention
 ☐ Activation
-☐ Reactivation
 
 Ecosystem Outcomes
 ☐ Security
@@ -82,4 +85,69 @@ Placeholder: e.g. Grow active users via high-usage integrations
 
 ---
 
-*Forms 2–7 will be added as each is completed.*
+## Form 2 — Program Intent
+
+*(To be completed)*
+
+---
+
+## Form 3 — Rubric — User Outcome
+
+*(To be completed)*
+
+---
+
+## Form 4 — Rubric — Ecosystem Outcome
+
+*(To be completed)*
+
+---
+
+## APPLICANT FORMS (Public — no login required)
+
+---
+
+## Pre-Screening
+
+**Page Title:** Before You Apply
+
+**Page Description:** Answer these questions to confirm this program is the right fit for your project.
+
+---
+
+**What type of project are you building?**
+Dropdown — Placeholder: Select project type
+Options: DeFi / Protocols, Consumer Apps / Wallets
+Helper: Pulled from program settings
+
+---
+
+**Which outcome does your project primarily target?**
+Dropdown — Placeholder: Select outcome
+Options: Acquisition, Retention, Activation
+Helper: Pulled from program settings
+
+---
+
+**Do you meet the following requirements?**
+Label: All boxes must be checked to continue
+
+  ☐ [Criterion 1 — pulled from Program Info]
+  ☐ [Criterion 2 — pulled from Program Info]
+  ☐ [Criterion 3 — pulled from Program Info]
+
+---
+
+[ Continue to Application ]
+
+---
+
+## Form 5 — Application Form — DeFi / Protocols
+
+*(To be completed)*
+
+---
+
+## Form 6 — Application Form — Consumer Apps / Wallets
+
+*(To be completed)*
