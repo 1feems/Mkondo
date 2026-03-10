@@ -1,6 +1,6 @@
 # FlowOS — Forms Specification
 
-Field reference for Figma design and development. Updated as each form is completed.
+Technical reference for agent screening, application intake, and program configuration. Each field is described with its type, purpose, and how it is used by the agent.
 
 ---
 
@@ -9,38 +9,37 @@ Field reference for Figma design and development. Updated as each form is comple
 | # | Form | Who fills it | When |
 |---|---|---|---|
 | 1 | Program Info | Operator | Once per program |
-| 2 | Program Round | Operator | Each funding cycle |
-| 3 | Program Intent | Operator | Each funding cycle |
-| 4 | Application Form — DeFi / Protocols | Builder (public) | Per submission |
-| 5 | Application Form — Consumer Apps / Wallets | Builder (public) | Per submission |
-| 6 | Rubric — User Outcome | Operator | Once per program or round |
-| 7 | Rubric — Ecosystem Outcome | Operator | Once per program or round |
+| 2 | Program Intent | Operator | Each funding cycle |
+| 3 | Application Form — DeFi / Protocols | Builder (public) | Per submission |
+| 4 | Application Form — Consumer Apps / Wallets | Builder (public) | Per submission |
+| 5 | Rubric — User Outcome | Operator | Once per program or round |
+| 6 | Rubric — Ecosystem Outcome | Operator | Once per program or round |
 
 ---
 
-## Form 1 — Program Info (General)
+## Form 1 — Program Info
 
-**Purpose:** This form sets the identity of your grant program. Filled once and applies to all rounds. Appears in the registry and on your public application page.
+Sets the permanent identity of a grant program. Created once by the operator. All fields are passed to the agent as program-level context when screening applications.
 
-| Field Label | Field Type | Required | Description / Guide |
+| Field | Type | Required | Agent Use |
 |---|---|---|---|
-| Program Name | Text | Yes | Give your program a unique name. e.g. Stacks Builder Grant |
-| Ecosystem / Chain | Text | Yes | Which blockchain ecosystem does this program support? e.g. Stacks, Optimism, Near |
-| Program Description | Long Text | Yes | What is this program trying to achieve? Describe the gap or opportunity it addresses |
-| Funding Type | Static | Yes | Grant Program |
-| Mechanism | Dropdown | Yes | How funding is distributed. Options: Grant |
-| Program Focus | Checkbox group | Yes | Select all that apply — User Outcomes: Acquisition, Retention, Activation, Reactivation / Ecosystem Outcomes: Security, Infrastructure, Interoperability, Developer Tools, Ecosystem Growth |
-| Vertical | Dropdown | Yes | Select the vertical this program supports. Determines the application form template used for all rounds. Options: DeFi / Protocols, Consumer Apps / Wallets |
-| Eligibility Criteria | Grouped section | Yes | Define the conditions a project must meet to qualify |
-| ↳ Criterion 1 | Text input | Yes | e.g. Project must be live and deployed on supported chain |
-| ↳ Criterion 2 | Text input | Yes | e.g. Minimum 3 months of demonstrable user activity or traction |
-| ↳ Criterion 3 | Text input | Yes | e.g. No major security incidents in the last 6 months |
-| ↳ + Add criterion | Repeater | Optional | Up to 2 additional criteria |
-| Expected Deliverables | Long Text | Yes | What outputs do you expect from funded projects? e.g. integrations, tooling, user campaigns |
-| Rubric | Dropdown | Yes | Select the rubric for this program. Options: User Outcome Rubric |
-| Program Lead / Contact | Text | Yes | Who is the internal owner or point of contact for this program? |
-| Primary Impact Goal | Text | Optional | What is the single most important outcome this program is working toward? e.g. Grow active users via high-usage integrations |
+| Program Name | Text | Yes | Program identity label in all agent outputs |
+| Ecosystem / Chain | Text | Yes | Agent uses to assess ecosystem alignment of submitted projects |
+| Program Description | Long Text | Yes | Agent reads to understand program purpose and gap being addressed |
+| Funding Type | Static | Yes | Context — always Grant in v1 |
+| Mechanism | Dropdown | Yes | Context — always Grant in v1. Options: Grant |
+| Program Focus | Checkbox group | Yes | Agent uses selected outcomes to assess whether submitted project targets the right outcome category. User Outcomes: Acquisition, Retention, Activation, Reactivation. Ecosystem Outcomes: Security, Infrastructure, Interoperability, Developer Tools, Ecosystem Growth |
+| Vertical | Dropdown | Yes | Determines which application form template is used. Signals to agent which vertical the program targets. Options: DeFi / Protocols, Consumer Apps / Wallets |
+| Eligibility Criterion 1 | Text | Yes | Agent checks submitted application against each criterion independently to determine eligible: true / false |
+| Eligibility Criterion 2 | Text | Yes | Agent checks submitted application against each criterion independently to determine eligible: true / false |
+| Eligibility Criterion 3 | Text | Yes | Agent checks submitted application against each criterion independently to determine eligible: true / false |
+| Eligibility Criterion 4 | Text | Optional | Additional eligibility check if needed |
+| Eligibility Criterion 5 | Text | Optional | Additional eligibility check if needed |
+| Expected Deliverables | Long Text | Yes | Agent uses to assess whether proposed project deliverables match program expectations |
+| Rubric | Dropdown | Yes | Selects which rubric the agent scores against. Options: User Outcome Rubric, Ecosystem Outcome Rubric |
+| Program Lead / Contact | Text | Yes | Internal metadata — not passed to agent |
+| Primary Impact Goal | Text | Optional | Agent uses as top-level intent signal when assessing intent_alignment |
 
 ---
 
-*Forms 2–7 will be added as each is completed.*
+*Forms 2–6 will be added as each is completed.*
