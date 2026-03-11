@@ -24,7 +24,8 @@ The problem is also documented in published research:
 |---|---|---|
 | Evaluating Progress in Web3 Grants: Introducing the Grant Maturity Index | Framework for measuring the maturity and effectiveness of Web3 grant programs | [arXiv:2410.19828](https://arxiv.org/abs/2410.19828) |
 | The Consequences of Missing Design in Crypto Funding | Why the absence of design logic in Web3 grant systems creates fragmentation and prevents learning | [Read](https://fundthis.substack.com/p/the-design-crisis-undermining-web3) |
-| CAMF: A New Architecture for Crypto Funding Systems | How connecting fragmented funding mechanisms into a coordinated system improves capital efficiency | [Read](https://fundthis.substack.com/p/the-coordination-failure-at-the-core) |
+| CAMF: A New Architecture for Crypto Funding Systems | How connecting fragmented funding mechanisms into a coordinated system improves capital efficiency | [Read](https://fundthis.substack.com/p/the-coordination-failure-at-the-core) |Crypto-Economic Analysis of Web3 Funding Programs Using the Grant Maturity Framework|
+[Read] https://arxiv.org/abs/2505.06801
 
 ---
 
