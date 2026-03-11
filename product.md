@@ -1,6 +1,6 @@
 # FlowOS — Product Overview
 
-FlowOS is a funding coordination platform for ecosystem grants and equity-free funding programs. It enables teams to design funding rounds, screen applications with AI-assisted pre-filtering, and track funded projects through a structured program registry.
+FlowOS is a funding coordination and strategy platform for ecosystem grants and equity-free funding programs that connects program design, AI-assisted application screening, and funded project tracking into one system — so funding decisions compound into long-term ecosystem growth.
 
 ---
 
