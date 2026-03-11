@@ -19,20 +19,20 @@ FlowOS is the direct product of this research — applying lifecycle architectur
 
 ## Frameworks
 
-**CAMF — Capital Architecture Mapping Framework**
+**[CAMF — Capital Architecture Mapping Framework](https://substack.com/home/post/p-179715300)**
 A system design model and taxonomy for non-dilutive funding that defines the roles, mechanisms, lifecycle phases, and decision anchors required to design and evolve decentralized funding systems as a coherent whole rather than a collection of standalone programs.
 
-**Funding Design**
-An emerging design discipline applying systems thinking and human-centered design to non-dilutive funding in decentralized, online coordination environments. [Read](https://drive.google.com/file/d/16HH9b3EB2e1uQSZ3_4Uq5nlHnvzqSuDu/view)
+**[Funding Design](https://drive.google.com/file/d/16HH9b3EB2e1uQSZ3_4Uq5nlHnvzqSuDu/view)**
+An emerging design discipline applying systems thinking and human-centered design to non-dilutive funding in decentralized, online coordination environments.
 
-**Grant Maturity Index**
-A framework for assessing the maturity and effectiveness of Web3 grant programs. Published: [arXiv:2410.19828](https://arxiv.org/abs/2410.19828)
+**[Grant Maturity Index](https://arxiv.org/abs/2410.19828)**
+A framework for assessing the maturity and effectiveness of Web3 grant programs.
 
-**Ecosystem Support Framework (ESF)**
-A systems-level model for how ecosystems support builders and contributors over time through coordinated governance, capital, and non-financial support. [Read](https://drive.google.com/file/d/1PML742Wg1u7TlhUJQn6uu9_dD9wwgIt8/view)
+**[Ecosystem Support Framework (ESF)](https://drive.google.com/file/d/1PML742Wg1u7TlhUJQn6uu9_dD9wwgIt8/view)**
+A systems-level model for how ecosystems support builders and contributors over time through coordinated governance, capital, and non-financial support.
 
-**Onchain Capital Allocation: Explorer Edition**
-Developmental editor and co-writer with Kevin Owocki — foundational research on decentralized capital allocation. [Read](https://www.allo.capital/resources/Ocah2)
+**[Onchain Capital Allocation: Explorer Edition](https://www.allo.capital/resources/Ocah2)**
+Developmental editor and co-writer with Kevin Owocki — foundational research on decentralized capital allocation.
 
 ---
 
