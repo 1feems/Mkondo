@@ -15,21 +15,6 @@ Ecosystem grant programs consistently fail at the same structural points:
 
 These failures were observed directly across Gitcoin, Arbitrum, POKT, and Polygon — not as an outside observer, but as someone who operated inside these systems in multiple roles simultaneously.
 
----
-
-## Direct Experience
-
-| Role | Ecosystems |
-|---|---|
-| Funder | Gitcoin, Arbitrum |
-| Operator | Gitcoin, POKT |
-| Reviewer | Gitcoin Grants Council (GG20–22) |
-| Researcher | Polygon, cross-ecosystem |
-| Grantee | Multiple programs |
-
-Serving on the Gitcoin Grants Council across three rounds (GG20–22) provided direct access to how review decisions are actually made — the inconsistency, the volume problem, and the absence of a structured outcome record were observable at close range.
-
----
 
 ## Supporting Research
 
