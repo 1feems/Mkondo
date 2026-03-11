@@ -6,31 +6,49 @@ FlowOS is a funding coordination platform for ecosystem grants and equity-free f
 
 ## The Problem
 
-Grant programs in Web3 are fragmented and manual. Operators manage applications across Notion, spreadsheets, and forms with no consistent process. Reviews are inconsistent. Funded project outcomes are rarely tracked. There is no way to see what a program actually produced across rounds.
+There is no clear way to define what a program is funding before intake opens, so every round is built from scratch and nothing carries forward
 
----
+Applications arrive with no pre-filtering against program criteria, so teams read everything manually and reviewers work from different standards each round
+
+There is no structured record of what programs produced, so performance stays invisible and every budget conversation starts without evidence
+
+Marketing and ecosystem teams have no visibility into what funding programs are building, so there is no way to align or collaborate around shared outcomes
 
 ## What FlowOS Does
 
-| Feature | Description |
-|---|---|
-| Program Intent Builder | Define program goals, outcomes, eligibility, and funding scope before launching a round |
-| Structured Application Builder | Build application forms aligned with program intent and evaluation criteria |
-| AI-Assisted Pre-Filtering | Pre-screen applications against program requirements and rubric criteria — labelled Pass / Needs Revision / Not a Fit before human review |
-| Application Intake & Review | Collect and review submissions in a structured workflow with consistent rubrics and AI pre-scores already surfaced |
-| Funding Program Registry | A record of every round, funded project, and outcome — so ecosystems can compare programs and improve over time |
+Feature 
+Program Intent Builder — define program goals, eligibility, tracks, and KPIs in a structured form that drives everything downstream before intake opens
 
----
+Application Form Builder — configure vertical-specific application forms loaded from the program config, with required fields and outcome response sections set once per round
+
+Public Application Form — builders apply through a public link with no account required, with a short pre-screening that confirms fit before the full form loads
+
+AI-Assisted Pre-Filtering — every application is evaluated against the program's own criteria and returned as Pass / Needs Revision / Not a Fit with pre-scores, strengths, risks, and a plain-language summary
+
+Structured Review Queue — Pass applications enter a queue with AI evaluation already surfaced, reviewed against the same rubric every round
+
+Funding Registry — approved projects are automatically added with pre-defined KPI fields, creating a structured record of what each program funded and produced across rounds
+
+Services 
+Program Design — we design your funding program from the ground up, defining goals, tracks, eligibility, and evaluation criteria before a round opens
+
+Program Assessment — we review your existing funding program and deliver a structured findings report identifying what is working, what is not, and what to change
+
+Impact Reporting — we produce a post-round report documenting what the program funded, what it produced, and how to improve the next round (coming)
 
 ## Who It's For
 
-| User | Role |
-|---|---|
-| Grant Operators | Design programs, run rounds, review applications |
-| Ecosystem / Growth Leads | Decide where non-dilutive capital goes |
-| Foundations / Governance Committees | Approve budgets, accountable for impact |
-| Builders / Applicants | Submit via public form — no login required |
+Users
 
+User	What they do in FlowOS
+Funding Program Operators	Set up programs, configure forms and rubrics, manage the review queue, make funding decisions
+Reviewers	Score applications in the review queue using the rubric, with AI pre-scores already surfaced
+Builders / Applicants	Submit through the public form, receive feedback if revision is needed, resubmit
+Stakeholders
+
+Stakeholder	What they need from FlowOS
+Ecosystem Growth Leads	Program-level view of what different rounds and tracks are producing to inform future allocation
+Protocol Treasuries	Structured outcome record linking spend to results for governance reporting and budget justification
 ---
 
 ## How It Works
@@ -44,29 +62,7 @@ Grant programs in Web3 are fragmented and manual. Operators manage applications 
 
 ---
 
-## Current Status
 
-Early proof of concept. Prototype in active development.
-
-- Forms: Program Info, Program Round Intent, Application Form, Rubric
-- Agent: mock implementation — deterministic outputs based on seeded data
-- Registry: programs table and program page
-- Public application form at /apply/[round-id]
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | Next.js, Tailwind CSS |
-| Backend | Next.js API Routes |
-| Database | PostgreSQL, Prisma |
-| Auth | NextAuth.js |
-| Agent | Claude API (structured JSON output) |
-| Hosting | Vercel + Railway |
-
----
 
 ## Links
 
