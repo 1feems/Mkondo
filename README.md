@@ -1,6 +1,6 @@
 # FlowOS
 
-Funding coordination platform for ecosystem grants and equity-free funding programs — structured program design, AI-assisted screening, and a registry of funded projects and outcomes.
+Program design and intake infrastructure for ecosystem grant programs — structured intake, AI-assisted screening, and a registry of what each round produced.
 
 ---
 
