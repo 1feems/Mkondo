@@ -157,7 +157,7 @@ The agent does not make final decisions. Human reviewers score all Pass applicat
 **Per-grant profile (auto-created on approval)**
 - Program / Round / Track, Grant Type, Approved Amount, Decision Date, Status
 - KPI metric slots defined at program level
-- External ID link to Karma GAP or similar platform if applicable
+- External ID link for cross-platform tracking if applicable
 
 ---
 
@@ -193,4 +193,4 @@ The agent does not make final decisions. Human reviewers score all Pass applicat
 - Form builder UI — configurable field builder for custom application forms without code
 - Multi-program support — multiple ecosystem programs running simultaneously
 - Cross-round registry intelligence — which programs and tracks produced best outcomes over time
-- External integrations — Karma GAP export, on-chain registry hooks, CSV / API export
+- External integrations — on-chain registry hooks, cross-platform export, CSV / API

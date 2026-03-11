@@ -1,48 +1,66 @@
 # FlowOS
 
-Funding coordination platform for ecosystem grants and equity-free funding programs — program design, AI-assisted screening, and a structured registry of funded projects.
-
-FlowOS enables teams to design funding rounds, screen applications with AI-assisted pre-filtering, and track funded projects through a structured program registry.
+Funding coordination platform for ecosystem grants and equity-free funding programs — structured program design, AI-assisted screening, and a registry of funded projects and outcomes.
 
 ---
 
-## Features
+## The Problem
 
-**Program Intent Builder**
-Define program goals, outcomes, eligibility, and funding scope before launching a round.
+Ecosystem grant programs have no structured way to define what they're funding before intake opens. Applications arrive with no pre-filtering. Reviews happen against ad-hoc criteria that change every round. When a round closes, there's no record of what the capital actually produced.
 
-**Structured Application Builder**
-Build application forms aligned with program intent and evaluation criteria.
-
-**AI-Assisted Pre-Filtering**
-Pre-screen incoming applications against program requirements and rubric criteria — labelled Pass / Needs Revision / Not a Fit before human review.
-
-**Application Intake & Review**
-Collect and review submissions in a structured workflow with consistent rubrics and AI pre-scores already surfaced.
-
-**Funding Program Registry**
-A record of every round, funded project, and outcome — so ecosystems can compare programs and improve over time.
+Every round is rebuilt from scratch. Performance is invisible. Nothing carries forward.
 
 ---
 
-## Repository Structure
+## What FlowOS Does
 
-```
-flowos/
-├── README.md
-├── docs/
-│   ├── forms-spec.md           — field reference for all program and application forms
-│   ├── prd.md                  — product requirements document
-│   ├── technical-architecture.md
-│   └── agent-spec.md           — agent inputs, outputs, and schema
-├── schema/
-│   └── schema.md               — database entities and relationships
-└── design/
-    └── figma.md                — Figma prototype link and screen descriptions
-```
+FlowOS gives grant operators a connected system for the full funding lifecycle:
+
+- **Program Intent Builder** — Define goals, eligibility, tracks, and KPI metrics before intake opens
+- **AI-Assisted Pre-Filtering** — Every application is evaluated against program intent and labelled Pass / Needs Revision / Not a Fit before any human reviews it
+- **Structured Review Queue** — Operators and reviewers work from the same rubric every round, with AI pre-scores already surfaced
+- **Funding Program Registry** — A structured record of every round, funded project, and outcome — comparable across rounds and programs over time
+
+---
+
+## Proof of Concept
+
+| Evidence | Document |
+|---|---|
+| Working prototype — core screens, mock agent pipeline, DB seed | [PRD — Current State](docs/prd.md#09--current-state) |
+| Technical spec — stack, data flow, agent schema | [Technical Architecture](docs/technical-architecture.md) |
+| Problem validation — direct professional experience across 4 ecosystems | [Problem Validation](research/problem-validation.md) |
+| Product validation — forms tested against live Stacks grant program + accepted application | [Validation](research/validation.md) |
+
+---
+
+## Documentation
+
+**Product**
+
+| Document | Description |
+|---|---|
+| [PRD](docs/prd.md) | Product requirements, scope, user flows, current build state |
+| [Technical Architecture](docs/technical-architecture.md) | Stack, data flow, agent design, entity relationships |
+| [Forms Specification](docs/forms-spec.md) | Field reference for all operator and applicant forms |
+| [Sitemap](docs/sitemap.md) | Full screen map — operator and public sections |
+| [User Flows](docs/userflows.md) | Step-by-step flows for operator setup, builder submission, and review |
+
+**Research**
+
+| Document | Description |
+|---|---|
+| [Problem Validation](research/problem-validation.md) | Problem validated through direct professional experience + published research |
+| [Product Validation](research/validation.md) | FlowOS forms tested against live Stacks grant program and an accepted application |
 
 ---
 
 ## Status
 
-Early proof of concept — prototype in active development.
+Early proof of concept — working prototype with core screens built. Agent pipeline runs on mock outputs. Grant funding wires the live Claude API integration and completes the registry layer.
+
+---
+
+## Founder
+
+[Feems](founder/founder.md) — funding design researcher and strategist. Background spans the full grants stack as funder, operator, reviewer, researcher, and grantee across Gitcoin, Arbitrum, POKT, and Polygon. FlowOS is the direct product of that research.
