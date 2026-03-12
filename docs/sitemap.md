@@ -4,9 +4,13 @@
 
 ## Sitemap
 
-### Operator (Authenticated)
+ ### Home Page 
 
-**Dashboard** — overview, applications to review, active programs, recent activity
+2.0 ### Operator (Authenticated)
+
+2.1 **Dashboard** — overview, applications to review, active programs, recent activity
+2.1.1 Create Programs 
+2.1.2 View Programs 
 
 **Create Program**
 - Program Info Form
@@ -15,16 +19,26 @@
 - Rubric Setup
 - Review & Publish
 
+**Forms**
+
 **Applications**
 - Applications Queue
 - Application Detail
-- AI Evaluation Panel
+- Pre-Selected Applicants 
 - Decision Screen
-- Funded Applications
+- Applications Status
 
-**Registry**
-- Programs Table
+** Program Registry**
+- Programs Table Programs 
 - Program Page
+- Program Round Page
+
+  **Forms**
+  Program Intent Forms
+  Round Intent Forms
+  Application Forms
+   - Defi
+   - Consumer 
 
 ---
 
