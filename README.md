@@ -1,6 +1,6 @@
 # FlowOS
 
-FlowOS is a funding coordination and strategy platform for ecosystem grants and other equity-free funding programs that helps ecosystems save time, coordinate funding programs, and make better funding decisions. It connects program design, AI-assisted application evaluation, and funded project data into one system so ecosystems can understand what their capital produces and improve funding programs over time.
+FlowOS is a funding coordination and strategy platform for ecosystem grants and other equity-free funding programs. It connects program design, AI-assisted application evaluation, and funded project data into one system — giving ecosystems a **coordination layer** across all their funding activity and a **strategy layer** to understand what their capital produces, compare programs, and improve funding decisions over time.
 
 ---
 
@@ -10,6 +10,7 @@ FlowOS is a funding coordination and strategy platform for ecosystem grants and 
 - At volume, reviewing every application manually creates backlogs, inconsistent decisions, and reviewer burnout — with no way to prioritize what's actually worth reading.
 - Funding programs across grants, hackathons, and initiatives run in silos — with no shared structure to coordinate what each program is funding or how they fit together.
 - Treasuries and funding decision-makers have no structured record linking funding decisions to outcomes — spend data exists but what it produced doesn't, making it difficult to justify budgets or allocate capital with confidence.
+- There is no strategy layer above individual programs — no way for ecosystems to compare what different programs produced, identify what's working, and deliberately improve how they deploy capital over time.
 
 ---
 
@@ -27,7 +28,7 @@ FlowOS is a funding coordination and strategy platform for ecosystem grants and 
 - **Structured Application Builder** — Create application forms that are directly aligned with the program's intent, evaluation criteria, and decision rubric.
 - **AI-Assisted Pre-Filtering** — Automatically pre-screen incoming applications against program requirements and rubric criteria. Applications are labeled Pass / Needs Revision / Not a Fit before human review.
 - **Application Intake & Review** — Collect and review submissions through a structured workflow where applications, rubrics, and AI pre-scores are already surfaced for reviewers.
-- **Funding Program Registry** — Maintain a record of every program, round, funded project, and outcome — allowing ecosystems to compare programs and improve funding strategies over time.
+- **Funding Program Registry** — The coordination and strategy layer. Connects every program, round, funded project, and outcome into a single structured view — so ecosystems can coordinate across all their funding activity, compare what each program produces, and make better capital allocation decisions over time.
 
 ---
 
@@ -38,7 +39,7 @@ FlowOS is a funding coordination and strategy platform for ecosystem grants and 
 3. **Collect Applications** — Builders submit proposals through a public application form generated from the program configuration.
 4. **AI-Assisted Evaluation** — Each submission is automatically evaluated against eligibility rules, round goals, expected deliverables, and the scoring rubric, returning a triage label: Pass, Needs Revision, or Not a Fit.
 5. **Review & Decision** — Operators review applications in a structured queue with AI summaries and rubric scores surfaced, then approve or reject proposals.
-6. **Program Registry** — Approved projects are automatically added to the FlowOS registry, creating a structured record of funding activity including program-level views, project profiles, and an application database with status tracking across all rounds.
+6. **Coordination & Strategy Layer** — Approved projects are added to the registry, building a connected record across all programs and rounds. Ecosystems can see what every program is funding, compare outcomes across rounds and tracks, and allocate capital with confidence — not just spend data, but what it produced.
 
 ---
 
@@ -49,6 +50,19 @@ Additional services available to support setup, design, and analysis using FlowO
 - **Program Registry Setup** — Import and structure past grants, hackathons, and funding rounds in FlowOS to create a unified registry of programs and funded projects.
 - **Funding Program Design** — Design and configure funding programs in FlowOS, including application forms, evaluation rubrics, builder profiles, and other program assets required to launch a round.
 - **Program Assessment & Reporting** — Structure existing funding data in FlowOS and produce reports on program design and funded project outcomes.
+
+---
+
+## Current Build & Vision
+
+**v1 — Operator Platform for Grant Programs**
+The current build is an operator platform for ecosystem grant programs — program setup, AI-assisted application screening, structured review, and a funded project registry.
+
+**Designed for more than grants**
+Grants are the first program type. The architecture is built to support any structured funding program — hackathons, bounties, RFPs, and ecosystem initiatives. The operator layer is the entry point; the registry is what turns individual program activity into ecosystem-level coordination and strategy data over time.
+
+**Agent pipeline**
+The current agent pipeline pre-screens applications against program intent. It is designed to support additional AI interactions within the funding workflow as the platform grows.
 
 ---
 
