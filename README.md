@@ -1,4 +1,5 @@
 # FlowOS
+Mkondo is the coordination and strategy layer that gives ecosystem capital a clear current to follow, aligning every funding program into one continuously improving system.
 
 FlowOS is a funding coordination and strategy platform for ecosystem grants and other equity-free funding programs. It connects program design, AI-assisted application evaluation, and funded project data into one system — giving ecosystems a **coordination layer** across all their funding activity and a **strategy layer** to understand what their capital produces, compare programs, and improve funding decisions over time.
 
