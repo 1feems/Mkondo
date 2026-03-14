@@ -1,6 +1,6 @@
 # Mkondon — Problem Validation
 
-The problem FlowOS solves was observed and documented through direct professional participation across multiple ecosystems — as a funder, operator, reviewer, researcher, and grantee.
+The problem Mkondo solves was observed and documented through direct professional participation across multiple ecosystems — as a funder, operator, reviewer, researcher, and grantee.
 
 ---
 
@@ -26,6 +26,6 @@ The problem is also documented in published research:
 
 ---
 
-## How FlowOS Addresses This
+## How Mkondo Addresses This
 
-The solution FlowOS implements — structured intent before intake, consistent rubric, pre-screening gate, funded project registry — addresses each failure point directly. The problem is not theoretical. It is structural, and it recurs across ecosystems because the infrastructure to solve it does not exist.
+The solution Mkondo implements structured intent before intake, consistent rubric, pre-screening gate, funded project registry addresses each failure point directly. The problem is not theoretical. It is structural, and it recurs across ecosystems because the infrastructure to solve it does not exist.
