@@ -1,6 +1,6 @@
 # Mkondo — Problem Validation
 
-The problem Mkondo solves was observed and documented through direct professional participation across multiple ecosystems — as a funder, operator, reviewer, researcher, and grantee.
+The problem Mkondo solves was observed and documented through direct professional participation across multiple ecosystems, as a funder, operator, reviewer, researcher, and grantee.
 
 ---
 
@@ -31,4 +31,24 @@ The problem is also documented in published research:
 
 ## How Mkondo Addresses This
 
-The solution Mkondo implements structured intent before intake, consistent rubric, pre-screening gate, funded project registry addresses each failure point directly. The problem is not theoretical. It is structural, and it recurs across ecosystems because the infrastructure to solve it does not exist.
+The solution Mkondo implements, structured intent before intake, consistent rubric, pre-screening gate, and a funded project registry, addresses each failure point directly. The problem is not theoretical. It is structural, and it recurs across ecosystems because the infrastructure to solve it does not exist.
+
+---
+
+## Where Mkondo Fits
+
+**Grant Operators** — the team running the program day to day
+
+| Step | Mkondo |
+|---|---|
+| Define what the program funds | Program setup forms capture eligibility, rubric, outcome focus, and grant scope once and apply that structure across rounds |
+| Open a new round | Round setup defines budget, target applicants, and how success will be measured |
+| Receive applications | AI pre-screening labels every submission before a reviewer sees it: Pass / Needs Revision / Not a Fit |
+| Run review | Every application arrives with rubric scores already surfaced so reviewers work from the same criteria each round |
+
+**Treasury Committee** — reviews what funding programs produced and makes strategy and budget decisions
+
+| Step | Mkondo |
+|---|---|
+| Quarterly review calls | The registry provides a structured record per round, including funded projects, outcome metrics, and what each round produced |
+| Budget approvals | Program setup creates a record of what each program is designed to fund, at what cost, and against what metrics so decisions are grounded in structured data |

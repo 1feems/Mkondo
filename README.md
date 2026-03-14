@@ -72,9 +72,14 @@ The current agent pipeline pre-screens applications against program intent — r
 
 ## Proof of Concept
 
+Grant reviewers should start here: [Proof of Concept Summary](docs/proof-of-concept.md)
+
 | Evidence | Document |
 |---|---|
-| Working prototype — core screens, mock agent pipeline, DB seed | [PRD — Current State](docs/prd.md#09--current-state) |
+| Reviewer summary — what has been built so far, what is working, and what remains | [Proof of Concept Summary](docs/proof-of-concept.md) |
+| Working prototype — core screens, mock agent pipeline, current build state | [PRD — Current State](docs/prd.md#09--current-state) |
+| Product scope and system walkthrough | [PRD](docs/prd.md) |
+| Screen map and operator workflow | [Sitemap & System Overview](docs/sitemap.md) |
 | Problem validation — direct professional experience across 4 ecosystems | [Problem Validation](research/problem-validation.md) |
 | User validation — forms tested against live Stacks grant program and an accepted application (BNS One) | [User Validation](research/user-validation.md) |
 
