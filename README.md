@@ -72,7 +72,7 @@ The current agent pipeline pre-screens applications against program intent — r
 
 ## Proof of Concept
 
-Grant reviewers should start here: [Proof of Concept Summary](docs/proof-of-concept.md)
+ [Proof of Concept Summary](docs/proof-of-concept.md)
 
 | Evidence | Document |
 |---|---|
