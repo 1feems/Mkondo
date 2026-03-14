@@ -1,6 +1,6 @@
 # Mkondo — User Flows
 
-Operator and applicant flows.
+Operator flows and applicant flow.
 
 ---
 
@@ -10,7 +10,7 @@ Operator and applicant flows.
 OPERATOR LOGS INTO MKONDO
     │
     ▼
-[ Step 1 ] PROGRAM INFO FORM
+[ Step 1 ] PROGRAM INFO FORM  ← done once for each program
     │   ├── Program name
     │   ├── Ecosystem / chain
     │   ├── Focus area and vertical
@@ -18,18 +18,18 @@ OPERATOR LOGS INTO MKONDO
     │   └── Rubric selection
     │
     ▼
-[ Step 2 ] PROGRAM ROUND INTENT FORM
+[ Step 2 ] PROGRAM ROUND INTENT FORM  ← done each funding cycle
     │   ├── Round details
     │   ├── Budget and dates
     │   ├── Target applicants
     │   ├── Program metrics
-    │   ├── Application form selection
-    │   └── Rubric selection
+    │   ├── Application Form:  [ + Create new ]
+    │   └── Rubric:            [ + Create new ]
     │
     ▼
 [ Step 3 ] CONFIGURE APPLICATION FORM
-    │   ├── Load form template
-    │   ├── Adjust fields
+    │   ├── Load vertical template
+    │   ├── Add / remove / reorder fields
     │   └── Mark required fields
     │
     ▼
@@ -40,10 +40,10 @@ OPERATOR LOGS INTO MKONDO
     │
     ▼
 [ Step 5 ] REVIEW & PUBLISH
-    │   └── Public application page generated
+    │   └── System generates a public application page
     │
     ▼
-PROGRAM GOES LIVE
+PROGRAM IS LIVE — operator shares URL with builders
 ```
 
 ---
@@ -51,17 +51,17 @@ PROGRAM GOES LIVE
 ## Operator Flow — Returning (New Round)
 
 ```text
-OPERATOR OPENS EXISTING PROGRAM
+OPERATOR LOGS IN → goes to existing Program page
     │
     ▼
-[ Step 1 ] REVIEW PROGRAM INFO
-    │   └── Update core details if needed
+[ Step 1 ] PROGRAM INFO FORM  ← already exists
+    │   Update only if core program details have changed
     │
     ▼
-[ Step 2 ] UPDATE ROUND INTENT
-    │   ├── Update dates, budget, goals, and metrics
-    │   ├── Reuse or update application form
-    │   └── Reuse or update rubric
+[ Step 2 ] PROGRAM ROUND INTENT FORM  ← update for this round
+    │   ├── Update goals, budget, dates, and metrics
+    │   ├── Application Form:  [ Use existing ] or [ + Create new ]
+    │   └── Rubric:            [ Use existing ] or [ + Create new ]
     │
     ▼
 [ Step 3 ] REVIEW & PUBLISH
@@ -73,14 +73,14 @@ OPERATOR OPENS EXISTING PROGRAM
 ## Applicant Flow — Public, No Login
 
 ```text
-APPLICANT OPENS PUBLIC APPLICATION PAGE
+APPLICANT receives link or finds program page
     │
     ▼
 PROGRAM PAGE
-    │   ├── Program overview
+    │   ├── Program name, description, and scope
     │   ├── Eligibility requirements
-    │   ├── Funding scope
-    │   └── Apply entry point
+    │   ├── Funding range and deadline
+    │   └── [ Apply Now ]
     │
     ▼
 PRE-SCREENING
@@ -105,12 +105,12 @@ SUBMISSION CONFIRMATION
 
 ```text
 APPLICATIONS QUEUE
-    │   ├── Applications organized for review
+    │   ├── Applications grouped for review
     │   └── Screening result surfaced before full review
     │
     ▼
 APPLICATION DETAIL
-    │   ├── Full application content
+    │   ├── Full application
     │   └── Evaluation summary
     │
     ▼
