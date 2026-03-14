@@ -1,4 +1,4 @@
-# Mkondon — Problem Validation
+# Mkondo — Problem Validation
 
 The problem Mkondo solves was observed and documented through direct professional participation across multiple ecosystems — as a funder, operator, reviewer, researcher, and grantee.
 
