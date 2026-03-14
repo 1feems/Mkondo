@@ -1,0 +1,193 @@
+# Mkondo Design System
+
+## Brand Concept
+Mkondo means stream / current / flow.  
+The product coordinates capital across funding programs, applications, and outcomes.
+
+Visual direction:
+- calm
+- strategic
+- institutional
+- modern fintech
+- fluid motion
+
+Avoid crypto-neon or gaming UI aesthetics.
+
+---
+
+## Color System
+
+### Background Gradient
+Use a soft atmospheric mint gradient for the page background.
+
+Colors:
+#CFE3E7
+#BFD7D2
+#E8E5DD
+
+CSS example:
+background: linear-gradient(
+135deg,
+#CFE3E7 0%,
+#BFD7D2 45%,
+#E8E5DD 100%
+);
+
+This gradient should sit behind the dashboard container, not inside UI components.
+
+---
+
+### Accent Colors (Capital Flow)
+Used for highlights, charts, badges, and blurred gradient shapes.
+
+Coral
+#F96858
+
+Salmon
+#FA8072
+
+Amber
+#FFAC38
+
+Gradient example:
+linear-gradient(135deg, #F96858, #FFAC38);
+
+These colors represent capital flow through the ecosystem.
+
+---
+
+### UI Surfaces
+Main interface surfaces should be warm neutrals.
+
+Surface
+#F6F3EC
+
+Card
+#ECE7DE
+
+Use these for:
+- dashboard containers
+- cards
+- tables
+- forms
+
+---
+
+### Navigation
+Sidebar navigation should be solid charcoal, not gradient.
+
+#2B2B2B
+
+This stabilizes the interface and increases contrast.
+
+---
+
+## Typography
+
+Primary font:
+Satoshi
+
+Fallback:
+Inter
+
+Wordmark styling:
+MKONDO
+
+Uppercase is preferred.
+
+The O shape should feel circular and strong, echoing the concept of cycles and flow.
+
+---
+
+## Type Scale
+H1 36px Medium  
+H2 24px Medium  
+H3 20px Medium  
+
+Body 16px Regular  
+Meta 14px Regular  
+Caption 12px Regular  
+
+---
+
+## Icon Style
+Icons should be:
+- minimal outline
+- 1.5px stroke
+- rounded corners
+
+Recommended libraries:
+- Lucide
+- Feather
+- Phosphor
+
+Avoid filled icons unless used sparingly.
+
+---
+
+## Layout Structure
+Standard dashboard layout:
+
+mint gradient background
+
+| sidebar | main content |
+
+sidebar: #2B2B2B  
+main container: #F6F3EC  
+cards: #ECE7DE  
+
+Grid system:
+12 column layout  
+max width 1200px  
+24px gutters  
+
+---
+
+## Gradient Rules
+
+Gradients should only appear in:
+- hero sections
+- background atmosphere
+- charts
+- highlight cards
+- blurred color shapes
+
+Do not use gradients in:
+- sidebar navigation
+- tables
+- forms
+- text areas
+
+---
+
+## Logo Direction
+
+Logo concept:
+Two flowing currents / fish forming a circular motion.
+
+Represents:
+- capital cycles
+- ecosystem flow
+- coordination
+
+Preferred logo color:
+#F96858
+
+Or white when used on dark backgrounds.
+
+---
+
+## UI Style Reference
+
+The Mkondo interface should feel similar to:
+- Linear
+- Stripe
+- Vercel
+- Ramp dashboards
+
+Characteristics:
+- calm colors
+- structured layout
+- subtle gradients
+- strong typography
+- clean spacing
