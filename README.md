@@ -2,6 +2,19 @@
 
 Mkondo is a funding coordination and strategy platform for ecosystem grants and other equity-free funding programs — connecting how programs are designed, how applications are evaluated, and what funded projects produce into a coherent whole. Through program design, AI-assisted application evaluation, and a program registry, it serves grant and ecosystem funding operators, growth leads, and treasury committees — giving each the tools to design intentional programs, make informed funding decisions, and understand what capital is producing over time.
 
+---
+
+## Current Build
+
+| Evidence | Document |
+|---|---|
+| Build: Current State | [Build: Current State](docs/CurrentState.md) |
+| Product Requirements | [Product Requirements](docs/prd.md) |
+| System Overview | [System Overview](docs/sitemap.md) |
+| Operator and Applicant Flows | [Operator and Applicant Flows](docs/user-flows.md) |
+| System Architecture | [System Architecture](docs/system-architecture.md) |
+| Problem Validation | [Problem Validation](research/problem-validation.md) |
+| Product Testing: Testing the platform flow and assets against real grant programs | [Product Testing](research/user-validation.md) |
 
 ---
 
@@ -36,6 +49,7 @@ Ecosystems lack a strategy layer across funding programs to compare outcomes, id
 - **Protocol Treasuries & Governance** — view structured records linking funding spend to outcomes to inform reporting and capital allocation decisions.
 
 ---
+
 ## How It Works
 
 1. **Define the Program** — Funding teams configure the program in Mkondo by setting core details such as eligibility, focus areas, desired outcomes, and evaluation criteria.
@@ -44,6 +58,19 @@ Ecosystems lack a strategy layer across funding programs to compare outcomes, id
 4. **AI-Assisted Evaluation** — Each submission is automatically evaluated against eligibility rules, round goals, expected deliverables, and the scoring rubric, returning a triage label: Pass, Needs Revision, or Not a Fit.
 5. **Review & Decision** — Operators review applications in a structured queue with AI summaries and rubric scores surfaced, then approve or reject proposals.
 6. **Coordination & Strategy Layer** — Approved projects are added to the registry, building a connected record across all programs and rounds. Ecosystems can see what every program is funding, compare outcomes across rounds and tracks, and allocate capital with confidence — not just spend data, but what it produced.
+
+---
+
+## Current Build & Vision
+
+**v1 — Coordination & Strategy Platform for Grant Programs**  
+The current build covers the full operator flow for ecosystem grant programs — program design and intent configuration, vertical-specific application forms, AI-assisted pre-screening, structured review, and a funded project registry. The Consumer/Wallet vertical is live and tested. The DeFi/Protocols vertical form and rubric are built and ready to activate.
+
+**Designed for more than grants**  
+Grants are the first program type. The architecture is built to support any structured funding program — hackathons, bounties, RFPs, and ecosystem initiatives. The operator layer is the entry point; the registry is what turns individual program activity into ecosystem-level coordination and strategy data over time.
+
+**Agent pipeline**  
+The current agent pipeline pre-screens applications against program intent — returning a triage label, rubric scores, strengths, risks, and AI summary grounded in what the program was designed to fund. It is designed to support additional AI interactions within the funding workflow as the platform grows.
 
 ---
 
@@ -57,34 +84,6 @@ Additional services available to support setup, design, and analysis using Mkond
 
 ---
 
-## Current Build & Vision
-
-**v1 — Coordination & Strategy Platform for Grant Programs**
-The current build covers the full operator flow for ecosystem grant programs — program design and intent configuration, vertical-specific application forms, AI-assisted pre-screening, structured review, and a funded project registry. The Consumer/Wallet vertical is live and tested. The DeFi/Protocols vertical form and rubric are built and ready to activate.
-
-**Designed for more than grants**
-Grants are the first program type. The architecture is built to support any structured funding program — hackathons, bounties, RFPs, and ecosystem initiatives. The operator layer is the entry point; the registry is what turns individual program activity into ecosystem-level coordination and strategy data over time.
-
-**Agent pipeline**
-The current agent pipeline pre-screens applications against program intent — returning a triage label, rubric scores, strengths, risks, and AI summary grounded in what the program was designed to fund. It is designed to support additional AI interactions within the funding workflow as the platform grows.
-
----
-
-## Proof of Concept
-
- [Proof of Concept Summary](docs/proof-of-concept.md)
-
-| Evidence | Document |
-|---|---|
-| Reviewer summary — what has been built so far, what is working, and what remains | [Proof of Concept Summary](docs/proof-of-concept.md) |
-| Working prototype — core screens, mock agent pipeline, current build state | [PRD — Current State](docs/prd.md#09--current-state) |
-| Product scope and system walkthrough | [PRD](docs/prd.md) |
-| Screen map and operator workflow | [Sitemap & System Overview](docs/sitemap.md) |
-| Problem validation — direct professional experience across 4 ecosystems | [Problem Validation](research/problem-validation.md) |
-| User validation — forms tested against live Stacks grant program and an accepted application (BNS One) | [User Validation](research/user-validation.md) |
-
----
-
 ## Documentation
 
 **Product**
@@ -93,13 +92,17 @@ The current agent pipeline pre-screens applications against program intent — r
 |---|---|
 | [PRD](docs/prd.md) | Product requirements, scope, user flows, current build state |
 | [Sitemap & System Overview](docs/sitemap.md) | Screen map, system flow, and user flows for operator and public sections |
+| [User Flows](docs/user-flows.md) | Operator, applicant, and review flows |
+| [System Architecture](docs/system-architecture.md) | Public technical architecture and system design |
+| [Build: Current State](docs/CurrentState.md) | What is already built, what is designed, and what is currently mocked |
 
 **Research**
 
 | Document | Description |
 |---|---|
 | [Problem Validation](research/problem-validation.md) | Problem validated through direct professional experience + published research |
-| [User Validation](research/user-validation.md) | Mkondo forms tested against live Stacks grant program and an accepted application (BNS One) |
+| [Product Validation](research/product-validation.md) | Product testing against live grant program structure and approved applications |
+| [Product Testing](research/user-validation.md) | Testing the platform flow and assets against real grant programs |
 
 ---
 
